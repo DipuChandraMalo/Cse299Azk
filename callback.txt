@@ -9,9 +9,9 @@ let win;
 const squares = Array.from(document.querySelectorAll('#board div'));
 
 /*----- event listeners -----*/
-document.getElementById('board').addEventListener('click', handleTurn);
+document.getElementById('board').addEventListener('click', handleTurn);//here click is a callback
 const messages = document.querySelector('h2');
-document.getElementById('reset-button').addEventListener('click', init);
+document.getElementById('reset-button').addEventListener('click', init);//here click is a callback
 
 
 /*----- functions -----*/
